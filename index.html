@@ -1,17 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>WDD 131 - Dynamic Web Fundamentals - Alefe Queiroz</title>
-        <meta name="description" content="WDD 131 - Dynamic Web Fundamentals, Alefe Queiroz, About Me">
-        <meta name="author" content="Alefe Queiroz">
-    
-        <link rel="stylesheet" href="styles/base.css">
-    </head>    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 131 - Dynamic Web Fundamentals - Alefe Queiroz</title>
+    <meta name="description" content="WDD 131 - Dynamic Web Fundamentals, Alefe Queiroz, About Me">
+    <meta name="author" content="Alefe Queiroz">
+
+    <link rel="stylesheet" href="styles/base.css">
+</head>
 <body>
     <header>
-        <h1>WDD 131 - Dynamic Web Fundamentals - Alefe Queiroz</h1>
+        <h1>WDD 131 - Dynamic Web Fundamentals</h1>
         <nav>
             <ul class="menu">
                 <li><a href="#">LinkedIn</a></li>
@@ -22,19 +22,31 @@
         </nav>
     </header>
 
-    <main>
-        <section class="card">
-            <h2>Section 1</h2>
-            <p>Content for section 1.</p>
+    <main class="grid-container">
+        <section class="card about-me">
+            <h2>About Me</h2>
+            <div class="about-me-content">
+                <img src="images/fotoperfil.jpg" alt="Alefe Queiroz">
+                <p>My name is Alefe Queiroz. I was born in Fortaleza, Brazil. I'm 21 years old and work as an employee in my parents' restaurant. In my free time, I enjoy hanging out with my friends and watching movies.</p>
+                <img src="images/download.jpg" alt="Alefe Queiroz">
+            </div>
         </section>
-        <section class="card">
-            <h2>Section 2</h2>
-            <p>Content for section 2.</p>
+
+        <section class="card web-resources">
+            <h2>Web Dev Resources</h2>
+            <ul class="web-resources-list">
+                <li><a href="https://developer.mozilla.org/en-US/docs/Web">MDN Web Docs</a></li>
+                <li><a href="https://www.w3schools.com/">W3Schools</a></li>
+                <li><a href="https://css-tricks.com/">CSS-Tricks</a></li>
+                <li><a href="https://www.freecodecamp.org/">freeCodeCamp</a></li>
+                <li><a href="https://github.com/">GitHub</a></li>
+                <li><a href="https://stackoverflow.com/">Stack Overflow</a></li>
+            </ul>
         </section>
     </main>
 
     <footer>
-        <p>&copy; <span id="currentyear"></span> Alefe Queiroz, Ceara/Brazil</p>
+        <p>&copy; <span id="currentyear"></span> Alefe Queiroz, Brazil</p>
         <p id="lastModified"></p>
     </footer>
 

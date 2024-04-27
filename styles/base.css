@@ -39,7 +39,6 @@ nav {
     text-decoration: none;
 }
 
-/* Hover effect on nav anchor tags */
 .menu li a:hover {
     color: #ff0000; /* Change the color on hover */
 }
@@ -64,4 +63,17 @@ footer {
     color: white;
     text-align: center;
     padding: 10px;
+}
+
+.about-me img {
+    max-width: 100%;
+}
+
+.web-resources-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.web-resources-list li {
+    margin-bottom: 10px;
 }
