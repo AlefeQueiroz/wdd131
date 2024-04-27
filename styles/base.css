@@ -39,11 +39,18 @@ nav {
     text-decoration: none;
 }
 
+/* Hover effect on nav anchor tags */
+.menu li a:hover {
+    color: #ff0000; /* Change the color on hover */
+}
+
 main {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
     padding: 20px;
+    max-width: 800px; /* Set maximum width */
+    margin: 0 auto; /* Center the main element horizontally */
 }
 
 .card {
