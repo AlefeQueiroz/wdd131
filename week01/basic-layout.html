@@ -1,44 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Layout com CSS Grid e Flex</title>
+    <title>Layout Review Task</title>
     <link rel="stylesheet" href="styles.css/layout.css">
 </head>
-
 <body>
     <header>
         <h1>Header Content</h1>
-    </header>
-
-    <header>
         <nav>
             <ul class="menu">
                 <li><a href="#">Home</a></li>
-                <li><a href="#">Projects</a></li>
+                <li><a href="#">About Us</a></li>
                 <li><a href="#">Services</a></li>
-                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">Contact</a></li>
             </ul>
         </nav>
     </header>
 
-    <main>
-        <aside>
-            <h2>Aside Content</h2>
-            <p>This is the content of the aside.</p>
+    <div class="container">
+        <main>
+            <h2>Main Content</h2>
+            <p>This is the main content of the page.</p>
+        </main>
+
+        <aside class="left-sidebar">
+            <h3>Left Sidebar</h3>
+            <p>This is the content of the left sidebar.</p>
         </aside>
 
-        <div class="content">
-            <h1>Main Content</h1>
-            <p>This is the main content of the page.</p>
-        </div>
-    </main>
+        <aside class="right-sidebar">
+            <h3>Right Sidebar</h3>
+            <p>This is the content of the right sidebar.</p>
+        </aside>
+    </div>
 
     <footer>
         <p>Footer Content</p>
     </footer>
 </body>
-
 </html>

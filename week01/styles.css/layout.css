@@ -3,11 +3,10 @@ body {
     font-family: Arial, sans-serif;
     display: grid;
     grid-template-rows: auto 1fr auto;
-    grid-template-columns: 200px 1fr;
     grid-template-areas:
-        "header header"
-        "aside main"
-        "footer footer";
+        "header"
+        "container"
+        "footer";
     min-height: 100vh;
 }
 
@@ -43,20 +42,24 @@ nav {
     text-decoration: none;
 }
 
+.container {
+    grid-area: container;
+    display: grid;
+    grid-template-columns: 1fr 200px 200px;
+    grid-gap: 20px;
+    padding: 20px;
+}
+
 main {
-    grid-area: main;
-    display: flex;
+    grid-column: 1 / 2;
 }
 
-aside {
-    grid-area: aside;
-    background-color: #333; /* alterado para azul */
-    color: white;
-    padding: 20px;
+.left-sidebar {
+    grid-column: 2 / 3;
 }
 
-.content {
-    padding: 20px;
+.right-sidebar {
+    grid-column: 3 / 4;
 }
 
 footer {
