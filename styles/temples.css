@@ -18,10 +18,11 @@ header {
     padding: 0;
     margin: 0;
     text-align: center;
+    display: flex; /* Flex declaration */
+    justify-content: center; /* Center items horizontally */
 }
 
 .menu li {
-    display: inline;
     margin-right: 20px;
 }
 
