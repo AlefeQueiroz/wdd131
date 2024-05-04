@@ -1,0 +1,29 @@
+/* Styles for larger view */
+
+header {
+    padding: 20px 40px;
+}
+
+.menu {
+    justify-content: flex-end;
+}
+
+.main-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.gallery {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.temple {
+    max-width: 300px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+footer {
+    padding: 20px 40px;
+}
